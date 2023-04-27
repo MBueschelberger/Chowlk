@@ -5,8 +5,8 @@ from flask import request, url_for, render_template, redirect, flash, \
                     send_from_directory, session, jsonify
 from flask_cors import CORS
 
-from source.chowlk.transformations import transform_ontology
-from source.chowlk.utils import read_drawio_xml
+from chowlk.transformations import transform_ontology
+from chowlk.utils import read_drawio_xml
 import xml.etree.ElementTree as ET
 from config import config
 

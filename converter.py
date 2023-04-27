@@ -1,7 +1,7 @@
 import argparse
 
-from source.chowlk.transformations import transform_ontology
-from source.chowlk.utils import read_drawio_xml
+from chowlk.transformations import transform_ontology
+from chowlk.utils import read_drawio_xml
 
 
 def main(diagram_path, output_path, type, format):

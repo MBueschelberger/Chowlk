@@ -1,10 +1,10 @@
 import tempfile
 import sys
-from source.chowlk.finding import *
-from source.chowlk.associations import *
-from source.chowlk.writer import *
-from source.chowlk.utils import *
-from source.chowlk.anonymousClass import *
+from chowlk.finding import *
+from chowlk.associations import *
+from chowlk.writer import *
+from chowlk.utils import *
+from chowlk.anonymousClass import *
 import rdflib
 import os
 import re
